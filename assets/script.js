@@ -35,7 +35,8 @@ function calcular(){
 
     if(soma<=30){
         var resultado = document.getElementById('resultado')
-        resultado.innerHTML= ("Total a pagar: " + 4)
+        var valorFixo = 4
+        resultado.innerHTML= ("Total a pagar: R$ " + valorFixo.toFixed(2))
     }
 
     else{
@@ -54,7 +55,7 @@ function calcular(){
 
      var resultado = document.getElementById('resultado')
 
-     resultado.innerHTML= ("Total a pagar: " + totalApagar)
+     resultado.innerHTML= ("Total a pagar: " + "R$ " + totalApagar.toFixed(2))
     
 }
 
